@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid bg-info text-white">
+        <div class="container-fluid">
+            <h1>Immagini jpg</h1>
+            <p>Pokemon, Canserbero ed Erza</p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <img src="imm1.jpg" class="rounded-circle float-right" alt="Pokemon" width="304" height="236">
+        <img src="imm2.jpg" class="img-thumbnail mx-auto d-block" alt="Canserbero" width="304" height="236">
+        <img src="imm3.jpg" class="rounded float-left" alt="Erza" width="304" height="236">
+    </div>
+    <button type="button" class="btn btn-outline-primary" style="margin: 260px 0px 0px -300px" >Button OutLine</button>
+    <button type="button" class="btn btn-primary btn-block" style="margin-top: 180px" >Block Level Button</button>
+
+    <div class="container-fluid" style="margin-top: 150px">
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Verdure</button>
+            <button type="button" class="btn btn-primary">Carne</button>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    Frutta
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Mela</a>
+                    <a class="dropdown-item" href="#">Banana</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-success bg-success text-white alert-dismissible fade show" style="margin-top: 400px">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <a href="#" class="alert-link"> Inizio pagina </a>
+    </div>
+
+</body>
+
+</html>
